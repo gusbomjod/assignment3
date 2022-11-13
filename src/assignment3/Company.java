@@ -204,7 +204,7 @@ public class Company{
 
         return employeeID + " promoted successfully to Intern.";
     }
-    public void checkReapetedIDException(String employeeID){ // this method checks if employeeID already exists
+    public void checkReapetedIDException(String employeeID) throws Exception{ // this method checks if employeeID already exists
         for(Employee employee:Employees){
             if(Objects.equals(employee.getEmployeeID(), employeeID)){
                 throw new RepeatedIDException("Cannot register. ID " + employeeID + " is already registered.");

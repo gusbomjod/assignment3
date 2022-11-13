@@ -24,7 +24,7 @@ public class Employee implements Comparable<Employee>{
     public void setEmployeeName(String newName) throws Exception{
         this.employeeName = newName;
     }
-    public void setGrossSalary(Double newGrossSalary){
+    public void setGrossSalary(Double newGrossSalary) throws Exception{
         this.grossSalary = newGrossSalary;
     }
 

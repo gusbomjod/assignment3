@@ -22,7 +22,7 @@ public class EmployeeManager extends Employee {
         }
     }
     @Override
-    public double getGrossSalary (){ //tog bort bonus truncate variabel och returnar direkt för att minska kod.
+    public double getGrossSalary (){
         double bonusSalary = 0;
         double bonusBSc = 1.1;
         double bonusMSc = 1.2;
